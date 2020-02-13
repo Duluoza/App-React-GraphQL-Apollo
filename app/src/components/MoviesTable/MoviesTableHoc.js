@@ -13,5 +13,3 @@ const withGraphQL = graphql(moviesQuery, {
 });
 
 export default compose(withStyles(styles), withGraphQL);
-
-// вызываем react-apollo и moviesQuery из queries, где был написан запрос на получение фильмов
